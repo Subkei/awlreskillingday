@@ -7,10 +7,11 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+<link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
-<h1>Bienvenido al sitio</h1>
+<h1>Bienvenido al sitio - Segunda versión</h1>
 <c:if test="${lmensaje != null}">
 	<h3><c:out value="${lmensaje}"></c:out></h3>
 </c:if>
